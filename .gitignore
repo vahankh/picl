@@ -1,4 +1,5 @@
 *.pyc
+.idea
 
 config/config.py
 config/database.py
