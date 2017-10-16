@@ -1,0 +1,5 @@
+*.pyc
+
+config/config.py
+config/database.py
+config/logging.py
