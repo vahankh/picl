@@ -115,7 +115,7 @@ class piclRouter(object):
         signatureParams = inspect.signature(action_method).parameters
 
         try:
-            docStringLines = inspect.getdoc(action_method).splitlines()
+            docStringLines = inspect.getdoc(action_method).split("Arguments:")[1].splitlines()
         except AttributeError:
             return
 
